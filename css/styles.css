@@ -1,0 +1,199 @@
+:root {
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --primary-background-color: #ffffff;
+  --color-logo: #4d5ae5;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  font-weight: 400;
+  background-color: var(--primary-background-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* =============COMPONENTS============= */
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+/* =============/COMPONENTS============= */
+
+/* =============Шапка============= */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: var(--secondary-text-color);
+}
+.menu-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+.contact-info {
+  font-style: normal;
+}
+.contact {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+/* =================/Шапка=============== */
+
+/* =============HERO STUDIO============= */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-caption {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.btn-order {
+  background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+.btn-order {
+  cursor: pointer;
+}
+.btn-order:hover,
+.btn-order:focus {
+  background: #404bbf;
+}
+
+/* =============/HERO STUDIO============= */
+/* =============OUR TEAM============= */
+.section-team {
+  background-color: #f4f4fd;
+}
+.holder {
+  background-color: #ffffff;
+}
+/* =============/OUR TEAM============= */
+/* =============Footer============= */
+
+.footer-text: {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.container-footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+.bottom-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.part-logo {
+  color: #f4f4fd;
+}
+
+/* =============/Footer============= */
+
+/* =============Portfolio============= */
+.filter-buttons {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-logo);
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.filter-buttons:hover,
+.filter-buttons:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.filter-buttons {
+  cursor: pointer;
+}
+
+.work-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.work-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+/* =============/Portfolio============= */
