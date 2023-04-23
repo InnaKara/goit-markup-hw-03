@@ -152,12 +152,10 @@ img {
 /* =============HERO STUDIO============= */
 .hero {
   background-color: #2e2f42;
-}
-
-.container-hero {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .hero-caption {
   font-weight: 700;
   font-size: 56px;
@@ -273,7 +271,7 @@ img {
 .container-footer {
   background: #2e2f42;
   color: #f4f4fd;
-  padding: 100px 0 100px 156px;
+  padding: 100px 0 100px;
 }
 .bottom-logo {
   font-family: "Raleway", sans-serif;
